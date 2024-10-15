@@ -1,0 +1,25 @@
+.button
+  color: blue
+
+.container
+  text-align: center
+
+.content
+  margin: 100px 0
+
+.card
+  border-radius: 10px
+  color: white
+  font-size: 30px
+  text-shadow: 1px 1px 0px #333
+  width: 300px
+  padding: 30px
+  background: linear-gradient(90deg, hsla(29, 92%, 70%, 1) 0%, hsla(0, 87%, 73%, 1) 100%)
+  margin: 0 auto 
+  opacity: 0 
+  transform: translateY(15px) 
+  transition: opacity 1s ease, transform 1s ease
+  &.in
+    &.visible
+      opacity: 1
+      transform: translateY(0)
